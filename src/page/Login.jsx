@@ -21,7 +21,7 @@ export default function Login() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-slate-900 text-white">
       <div className="bg-slate-800 p-8 rounded-xl shadow-lg w-96 border border-slate-700">
-        <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>
+        <h2 className="text-2xl font-bold mb-6 text-center">Login Auth</h2>
         <form onSubmit={handleLogin} className="space-y-4">
           <input 
             type="email" placeholder="Email" required 
